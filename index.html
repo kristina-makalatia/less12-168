@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <form action="" id="login" method="POST">
+        <div>
+          <label for="passwfield">Password</label>
+          <input type="password" name="passw" id="passwfield" />
+          <i class="fa-solid fa-eye" id="iconShow"></i>
+          <p class="error-text" id="error-passw"></p>
+        </div>
+        <div>
+          <input type="email" name="emailvalue" id="emailfield" />
+          <p class="error-email" id="errorEmail"></p>
+        </div>
+
+        <button>რეგისტრაცია</button>
+      </form>
+    </section>
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
